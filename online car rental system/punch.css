@@ -1,0 +1,24 @@
+html{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(icon.jpg);
+    background-size: cover;
+}
+p{
+    font-size: 60px;
+    color:rgb(227, 236, 227);
+}
+a{
+    text-decoration: none;
+}
+div{
+    border: 5px solid rgb(17, 13, 13);
+    border-radius: 5px;
+    background: rgb(86, 139, 7);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:rgb(19, 3, 3);
+}
+h3{
+   font-size: 20px;
+}

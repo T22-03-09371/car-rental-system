@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+    margin: 0;
+    background: rgb(46, 45, 43);
+}
+
+.car-list {
+    text-align: center;
+}
+
+.car {
+    display: inline-block;
+    margin: 44px;
+}
+
+.car img {
+    max-width: 300px; 
+}
+.mac{
+    background: black;
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+    margin-top: -190px;
+
+}
+punch{
+background: rgb(37, 41, 37);
+text-align: center;
+}
+.punch ul{
+display: inline-flex;
+list-style: none;
+color:bisque;
+margin: 15px;
+}
+.punch ul li{
+width:150px;
+margin: 10px;
+}
+*{
+padding: 0%;
+margin: 0%;
+}
+.punch ul li a{
+text-decoration: none;
+color:bisque;
+}
+.car1, .punch ul li:hover{
+background: rgb(52, 54, 49);
+border-radius: 5px;
+}
+
+.punch ul li:hover .sub ul{
+display:block;
+margin-top: 15px;
+}
+button{
+    background: blue;
+    font-size: 20px;
+}

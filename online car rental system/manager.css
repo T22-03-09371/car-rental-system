@@ -1,0 +1,38 @@
+.box{
+    border: 1px ;
+    text-align: center;
+    padding: 10px;
+    margin-left:400px;
+    margin-right:400px;
+    background: rgb(235, 234, 227);  
+}
+
+html{
+    background: #fff;
+}
+input{
+    font-size: 18px;
+}
+.batani{
+    background: greenyellow;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    margin: 0%;
+    color:aliceblue;
+    font-size: 20px;
+    background: rgb(94, 150, 150);
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+footer{
+    background: rgb(65, 58, 58);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+}

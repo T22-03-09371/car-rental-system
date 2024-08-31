@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need assistance, please feel free to reach out to us using the following contact details:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:kwekamoses47@gmail.com">kwekamoses47@gmail.com</a></li>
+                <li><strong>Phone:</strong> +(255) 7456-7890</li>
+                <li><strong>Address:</strong> 4007 LRN, UDOM, DODOMA</li>
+            </ul>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <p>You can also use the contact form below to send us a message:</p>
+            <form action="process_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+</body>
+</html>

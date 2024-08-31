@@ -1,0 +1,34 @@
+.call{
+    background: rgb(94, 150, 150);
+    padding: 10px;
+    margin-left: 460px;
+    margin-right: 460px;
+    border-radius: 5px;
+}
+.box{
+    border: 0px solid blue;
+    background: rgb(235, 234, 227);
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+    margin-left: 460px;
+    margin-right: 460px;
+
+}
+button{
+    background: rgb(20, 101, 223);
+    color:white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 6px;
+   
+}
+h2{
+    font-size:20px;
+    color:aliceblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+footer{
+font-size: 12px;
+}

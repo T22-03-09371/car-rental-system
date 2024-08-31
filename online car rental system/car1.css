@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: rgb(235, 231, 224);
+    min-height: 100vh;
+}
+
+.car-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.car {
+    display: inline-block;
+    margin: 44px;
+}
+
+.car img {
+    max-width: 300px;
+}
+
+.mac {
+   
+    font-size: 15px;
+    color: white;
+}
+
+.punch {
+    background: #2e2b2c;
+    text-align: center;
+    padding-left: 130px;
+}
+
+.punch ul {
+    display: inline-flex;
+    list-style: none;
+    color: bisque;
+    margin: 15px;
+}
+
+.punch ul li {
+    width: 150px;
+    margin: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.punch ul li a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.car1,
+.punch ul li:hover {
+    background: rgb(238, 43, 43);
+    border-radius: 5px;
+}
+
+.sub {
+    display: none;
+}
+
+.punch ul li:hover .sub {
+    display: block;
+    position: absolute;
+}
+
+.punch ul li:hover .sub ul {
+    display: block;
+    margin-top: 15px;
+}
+button{
+    background: rgb(90, 90, 236);;
+}

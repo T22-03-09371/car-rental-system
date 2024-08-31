@@ -1,0 +1,29 @@
+body{
+    background:  rgb(249, 252, 251);
+    text-align: center;
+}
+input{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+}
+button{
+    background: rgb(79, 79, 233);
+    font-size: 16px;
+}
+.box{
+    border: 1px ;
+    text-align: center;
+    padding: 10px;
+    margin-left:400px;
+    margin-right:400px;
+    background: rgb(235, 234, 227);
+} 
+.call{
+    background: rgb(94, 150, 150);
+    padding: 1px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+}

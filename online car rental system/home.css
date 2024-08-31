@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(car4.jpg);
+    background-size: cover;
+}
+.kati{
+    color:white;
+}
+.punch{
+    background: rgb(39, 48, 39);
+    text-align: center;
+}
+.punch ul{
+    display: inline-flex;
+    list-style: none;
+    color:bisque;
+    margin: 15px;
+}
+.punch ul li{
+    width:150px;
+    margin: 10px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.punch ul li a{
+    text-decoration: none;
+    color:bisque;
+}
+.home, .punch ul li:hover{
+    background: rgb(240, 17, 17);
+    border-radius: 5px;
+}
+.sub{
+    display:none;
+}
+.punch ul li:hover .sub{
+    display: block;
+    position:absolute;
+    background: rgb(27, 31, 27);
+}
+.punch ul li:hover .sub ul{
+    display:block;
+    margin-top: 15px;
+}
+footer{
+    margin-top: 100px;
+    background: rgb(28, 28, 36);
+    padding: 30px;
+    font-size: 16px;
+    color:rgb(231, 204, 169);
+    font-family: arial;
+    font-weight: bolder;
+}
+.kati{
+    color:white;
+    font-size: 50px;
+    font-family: arial;
+
+
+}
+.box{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+button{
+    font-size: 40px;
+    margin-left: 280px;
+    margin-top: 100px;
+    background: rgb(240, 17, 17);
+    border-radius: 15px;
+
+}

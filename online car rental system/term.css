@@ -1,0 +1,25 @@
+section{
+    font-size: 30px;
+    
+}
+h2{
+    text-align: center;
+    color:rgb(24, 18, 18);
+    font-size: 22px;
+}
+footer{
+    background: rgb(39, 36, 36);
+    padding: 10px;
+    color:beige;
+    font-size: 20px;
+    text-align: center;
+}
+marquee{
+    font-size: 30px;
+    background: rgb(229, 230, 231);
+    padding-top: 10px;
+}
+body{
+    background: rgb(244, 247, 244);
+    background-size: cover;
+}

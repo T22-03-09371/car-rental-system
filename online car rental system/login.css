@@ -1,0 +1,59 @@
+.box{
+    border: 0px solid blue;
+    border-radius: 5px;
+    background: rgb(235, 234, 227);
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+    margin-left: 460px;
+    margin-right: 460px;
+
+}
+.small{
+    border: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: -40px;
+    text-align: center;
+    font-family: arial;
+
+}
+button{
+    background: rgb(20, 101, 223);
+    color:white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 6px;
+   
+}
+
+label{
+    color:rgb(36, 36, 37);
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+marquee{
+    color:beige;
+    padding: 60px;
+    color:rgb(9, 104, 133);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: algerian;
+}
+h2{
+    font-size:20px;
+    color:aliceblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.call{
+    background: rgb(94, 150, 150);
+    padding: 15px;
+    margin-left: 460px;
+    margin-right: 460px;
+    border-radius: 5px;
+}
